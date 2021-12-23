@@ -12,4 +12,4 @@
 - [ ] Confirm LMS7002 IO bank asignment by creating a floorplan in vivado, also decide on power delivered to that bank.
 - [ ] Minor review on RGMII and Ethernet interfaces (Confirm Magnetics...).
 - [ ] Minor review on CAN interfaces, lacking some pasives on SN55HVD233-SEP and protection of the transceiver side from the VNX Connector.
-- [ ] Update [RFDIO](https://wiki.myriadrf.org/RFDIO) connector on baseboard to Hirose FX10A-80S.
+- [ ] Update [RFDIO](https://wiki.myriadrf.org/RFDIO) connector on baseboard to Hirose [FX10A-80S](https://www.hirose.com/en/product/p/CL0570-0121-7-71).
