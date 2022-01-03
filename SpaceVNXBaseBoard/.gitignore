@@ -16,3 +16,6 @@ Project Outputs*/
 
 # Access lock file for dbLib sources
 **/*.ldb
+
+# Autoregenerates when project compiles
+*.PrjPcbStructure
