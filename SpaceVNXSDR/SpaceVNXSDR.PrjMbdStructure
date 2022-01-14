@@ -1,0 +1,8 @@
+Record=DiagramHierarchy|SourceDocument=SpaceVNX.MbsDoc|Kind=Multi-board Schematic Module|Designator=SpaceVNXBaseBoard|Source=..\SpaceVNXBaseBoard\SpaceVNXBaseBoard.PrjPcb
+Record=SubProject|SourceDocument=SpaceVNX.MbsDoc|ProjectPath=..\SpaceVNXBaseBoard\SpaceVNXBaseBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=SpaceVNX.MbsDoc|Kind=Multi-board Schematic Module|Designator=SpaceVNXDaughterBoard|Source=..\SpaceVNXDaughterBoard\SpaceVNXDaughterBoard.PrjPcb
+Record=SubProject|SourceDocument=SpaceVNX.MbsDoc|ProjectPath=..\SpaceVNXDaughterBoard\SpaceVNXDaughterBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=SpaceVNXSDR.MbsDoc|Kind=Multi-board Schematic Module|Designator=SpaceVNXBaseBoard|Source=..\SpaceVNXBaseBoard\SpaceVNXBaseBoard.PrjPcb
+Record=SubProject|SourceDocument=SpaceVNXSDR.MbsDoc|ProjectPath=..\SpaceVNXBaseBoard\SpaceVNXBaseBoard.PrjPcb
+Record=DiagramHierarchy|SourceDocument=SpaceVNXSDR.MbsDoc|Kind=Multi-board Schematic Module|Designator=SpaceVNXDaughterBoard|Source=..\SpaceVNXDaughterBoard\SpaceVNXDaughterBoard.PrjPcb
+Record=SubProject|SourceDocument=SpaceVNXSDR.MbsDoc|ProjectPath=..\SpaceVNXDaughterBoard\SpaceVNXDaughterBoard.PrjPcb
