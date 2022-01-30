@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=HJAJIGKX
 
 [Document10]
-DocumentPath=JESD204B.SchDoc
+DocumentPath=DaughterBoardInterface.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -293,7 +293,7 @@ GenerateClassCluster=0
 DocumentUniqueId=CNRPJJHZ
 
 [Document16]
-DocumentPath=JESD204B.Harness
+DocumentPath=DaughterBoardInterface.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
