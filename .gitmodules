@@ -1,3 +1,6 @@
 [submodule "jlcpcb-design-rules-stackups"]
 	path = jlcpcb-design-rules-stackups
 	url = https://github.com/KindaM3h/jlcpcb-design-rules-stackups.git
+[submodule "SpaceVNXBaseBoard"]
+	path = SpaceVNXBaseBoard
+	url = https://github.com/KindaM3h/SpaceVNXBaseBoard.git
