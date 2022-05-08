@@ -4,3 +4,6 @@
 [submodule "SpaceVNXBaseBoard"]
 	path = SpaceVNXBaseBoard
 	url = https://github.com/KindaM3h/SpaceVNXBaseBoard.git
+[submodule "SpaceVNXDaughterBoard"]
+	path = SpaceVNXDaughterBoard
+	url = https://github.com/KindaM3h/SpaceVNXDaughterBoard.git
