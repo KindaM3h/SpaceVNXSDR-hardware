@@ -1,15 +1,16 @@
 # SpaceVNXSDR-hardware
-- [ ] Pre Placement:
-- [ ] DDR PL pending IO planning project in vivado.
-- [ ] Power Supply Design Review.
-  - [ ] Initial bootstrap of power sequencer.
-  - [ ] Select an inductor for TPS7H4010-SEP.
-  - [ ] Finish adding pasives for TPS73801-SEP.
-  - [ ] Confirm Radiation Hardness of DDR3/DDR3L termination supply regulator.
-- [ ] Clock Tree review.
-  - [x] Select Local Oscilator.
-  - [x] Defined system clock (two diferential clocks one primary and one auxiliary).
-- [ ] Confirm LMS7002 IO bank asignment by creating a floorplan in vivado, also decide on power delivered to that bank.
-- [ ] Minor review on RGMII and Ethernet interfaces (Confirm Magnetics...).
-- [ ] Minor review on CAN interfaces, lacking some pasives on SN55HVD233-SEP and protection of the transceiver side from the VNX Connector.
-- [ ] Update [RFDIO](https://wiki.myriadrf.org/RFDIO) connector on baseboard to Hirose [FX10A-80S](https://www.hirose.com/en/product/p/CL0570-0121-7-71).
+TODO's regarding [BaseBoard](SpaceVNXBaseBoard):
+- [ ] Schematics:
+- [ ]  DDR3 for PL (72-bit ECC) could be implemented with a standart [204-pin SODIM connector](https://www.te.com/usa-en/product-CAT-D33037-SO1339.html?q=&n=531259&type=products&samples=N&inStoreWithoutPL=false&instock=N) in order to reduce stackup cost by using a [Module](https://media-www.micron.com/-/media/client/global/documents/products/data-sheet/modules/sodimm/jtf16c256_512_1gx64hz.pdf?rev=92a9360308b84bd182ce55b117fec160).
+- [ ]  Change Non-Volatile Memory from NOR QSPI to a [MRAM](https://www.everspin.com/AppNotes) for better radiation hardness.
+- [ ]  Adapt DaughterBoard interface to comply with [SYZYGY](https://syzygyfpga.io/specification/) TXR-4 tranceiver peripheral specification.
+- [ ]  Documentation:
+- [ ]  Add Outputjob file similar to [this](SpaceVNXDaughterBoard/SpaceVNXDaughterBoard.OutJob)
+
+TODO's regarding [DaughterBoard](SpaceVNXDaughterBoard):
+- [ ] Schematics:
+- [] Add Clock Syntetizer.
+- [] Select and add ADC.
+- [] Power tree!
+- [ ] Route:
+- [ ] RF required changes detected after simulation.
