@@ -5,12 +5,12 @@ TODO's regarding [BaseBoard](SpaceVNXBaseBoard):
 - [ ]  Change Non-Volatile Memory from NOR QSPI to a [MRAM](https://www.everspin.com/AppNotes) for better radiation hardness.
 - [ ]  Adapt DaughterBoard interface to comply with [SYZYGY](https://syzygyfpga.io/specification/) TXR-4 tranceiver peripheral specification.
 - [ ]  Documentation:
-- [ ]  Add Outputjob file similar to [this](../SpaceVNXDaughterBoard/SpaceVNXDaughterBoard.OutJob).
+- [ ]  Add Outputjob file similar to [this](https://github.com/KindaM3h/SpaceVNXDaughterBoard/blob/5bddf40d4c2867f65b3ace6bd9e41c5fd28d74c9/SpaceVNXDaughterBoard.OutJob).
 
 TODO's regarding [DaughterBoard](SpaceVNXDaughterBoard):
 - [ ] Schematics:
-- [] Add Clock Syntetizer.
-- [] Select and add ADC.
-- [] Power tree!
+- [ ] Add Clock Syntetizer.
+- [ ] Select and add ADC.
+- [ ] Power tree!
 - [ ] Route:
 - [ ] RF required changes detected after simulation.
